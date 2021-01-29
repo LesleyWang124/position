@@ -1,0 +1,84 @@
+div {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+}
+.all {
+    width: 500px;
+    height: 400px;
+    background-color: azure;
+    position: relative;
+}
+.nav {
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+.substance {
+    width: 500px;
+    height: 350px;
+    background-color: floralwhite;
+    position: relative;
+    border: 1px solid black;
+    border-top: none;
+}
+.substance_left {
+    width: 135px;
+    height: 330px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.blogger {
+    position: fixed;
+    width: 135px;
+    height: 135px;
+    top: 70px;
+    background-color: fuchsia;
+    line-height: 135px;
+    border: 1px solid black;
+}
+.article_list {
+    position: fixed;
+    width: 135px;
+    height: 175px;
+    top: 225px;
+    background-color: fuchsia;
+    line-height: 175px;
+    border: 1px solid black;
+}
+.substance_right {
+    width: 315px;
+    height: 330px;
+    position: absolute;
+    left: 170px;
+    top: 10px;
+}
+.banner {
+    width: 315px;
+    height: 135px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 70px;
+    line-height: 135px;
+    border: 1px solid black;
+}
+.article {
+    width: 315px;
+    height: 175px;
+    background-color: rgb(255, 243, 81);
+    position: fixed;
+    top: 225px;
+    border: 1px solid black;
+}
+.article1,.article2,.article3,.article4 {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin-top: 4px;
+    background-color: cornsilk;
+    line-height: 80px;
+    border: 1px solid black;
+}
